@@ -1,0 +1,15 @@
+CREATE TABLE favoritebooks (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO favoritebooks VALUES (1, "Holes", 10);
+INSERT INTO favoritebooks VALUES (2, "Harry Potter", 8);
+INSERT INTO favoritebooks VALUES (3, "Berlin", 10);
+INSERT INTO favoritebooks VALUES (4, "Rich Dad Poor Dad", 10);
+
+CREATE TABLE favoritefood (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO favoritefood VALUES ( 1, "Pizza", 10);
+INSERT INTO favoritefood VALUES ( 2, "Hamburger", 10);
+INSERT INTO favoritefood VALUES ( 3, "Doner", 10);
+SELECT * FROM favoritefood;
+SELECT * FROM favoritefood;
+SELECT * FROM favoritebooks;
