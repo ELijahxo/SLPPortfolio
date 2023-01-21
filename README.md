@@ -1,2 +1,2 @@
-# SLPPortfolio
+# SQLPortfolio
 This is my SQL Portfolio.
